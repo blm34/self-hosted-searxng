@@ -1,7 +1,7 @@
 services:
   core:
     container_name: searxng-core
-    image: searxng/searxng:2026.8.5-1689cb1b5
+    image: searxng/searxng:2026.8.11-e8e710e42
     restart: unless-stopped
     env_file: ./.env
 
